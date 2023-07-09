@@ -1,3 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Nunito:wght@300;400;500;600;700;800;900&family=Rubik:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lato:wght@400;700&family=Nunito:wght@300;400;500;600;700;800;900&family=Rubik:wght@400;600;700;900&display=swap");
+.conditions {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+.conditions .rawC {
+  position: absolute;
+  right: -90px;
+  z-index: -1;
+}
+.conditions h2 {
+  text-align: center;
+  font-family: Rubik;
+  font-size: 36px;
+  padding: 140px 0 55px 0;
+}
+.conditions ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.conditions ul li {
+  width: 300px;
+  height: 281px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px 3px rgb(250, 239, 239);
+  font-family: Rubik;
+  margin: 15px;
+  padding: 30px;
+}
+.conditions ul li img {
+  width: 91px;
+}
+.conditions ul li h3 {
+  font-size: 22px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +48,9 @@
 body {
   width: 1366px;
   margin: 0 auto;
-  background-color: #fffdfb;
-  border: solid 1px black;
-  font-family: Lato, Rubik;
+  background-color: #fffefb;
+  box-shadow: 1px 1px 3px 3px rgb(175, 167, 167);
+  border-radius: 10px;
   color: 1A212F;
 }
 

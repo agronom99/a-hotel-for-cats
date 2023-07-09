@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Nunito:wght@300;400;500;600;700;800;900&family=Rubik:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lato:wght@400;700&family=Nunito:wght@300;400;500;600;700;800;900&family=Rubik:wght@400;600;700;900&display=swap');
+
+@import './conditions';
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +12,12 @@
 body {
   width: 1366px;
   margin: 0 auto;
-  background-color: #fffdfb;
-  border: solid 1px black;
-  font-family: Lato, Rubik;
+  background-color: #fffefb;
+  box-shadow: 1px 1px 3px 3px rgb(175, 167, 167);
+  border-radius: 10px;
+
+  // border: solid 1px black;
+  // font-family:  Lato, Rubik;
   color: 1A212F;
 }
 
